@@ -44,4 +44,14 @@ Modify Attributes and Classes
 
 Event Listener
 add script directly into the html
+
 <!-- <button onclick="alert('I love JavaScript')">ENTER</button> -->
+
+Event Probagation
+
+    event capturing (down the DOM)
+    target
+    event bubbling (back up the DOM)
+
+    stop probagation method = e.stopProbagation() in the function
+    preventDefault() keeps clicked anchor tag from refreshing immediately
