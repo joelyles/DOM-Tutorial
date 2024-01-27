@@ -19,6 +19,7 @@
 body {
     font-family: 'Roboto Slab', serif;
     background: #383961bc;
+    
 }
 
 main {
@@ -26,7 +27,7 @@ main {
 }
 
 .boxes {
-    height: 25vh;
+    height: 30vh;
     width: 60vw;
     margin: 50px;
     padding: 25px;
@@ -37,4 +38,12 @@ main {
 
 button {
     background-color: #058ed9;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.hidden-content.reveal-btn {
+    display: block;
 }

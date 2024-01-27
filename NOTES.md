@@ -41,3 +41,7 @@ Modify Attributes and Classes
 
     const title = document.querySelector('#main-heading');
     console.log(title.getAttribute('id'));
+
+Event Listener
+add script directly into the html
+<!-- <button onclick="alert('I love JavaScript')">ENTER</button> -->
