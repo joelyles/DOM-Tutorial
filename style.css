@@ -24,16 +24,20 @@ body {
 }
 
 #main-heading {
-    border: 2px solid red;
+    border: 2px solid #ead2ac;
+    border-left: 2px solid #058ed9;
+    border-bottom: 2px solid #058ed9;
     padding: 1rem;
     margin: .5rem;
     background-color: #dbaf50;
 }
 
-.list-item {
-    border: 2px solid blue;
+.list-items {
+    border: 2px solid #dbaf50;
+    border-left: 2px solid #058ed9;
+        border-bottom: 2px solid #058ed9;
     list-style: none;
     padding: 1rem;
     margin: .5rem;
-    background-color: #dbaf50;
+    background-color: #ead2acc2;
 }
