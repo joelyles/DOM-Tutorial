@@ -55,3 +55,7 @@ Event Probagation
 
     stop probagation method = e.stopProbagation() in the function
     preventDefault() keeps clicked anchor tag from refreshing immediately
+
+Event Delegation
+
+    allows users to append a SINGLE event listener to a parent element that adds it to all of its presnt AND future descendents that match that selector.

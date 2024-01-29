@@ -28,7 +28,7 @@ function changeColor() {
 
 boxThree.addEventListener('mouseover', changeColor); */
 
-const revealBtn = document.querySelector('.reveal-btn');
+/* const revealBtn = document.querySelector('.reveal-btn');
 
 const hiddenContent = document.querySelector('.hidden-content');
 
@@ -41,4 +41,34 @@ if(hiddenContent.classList.contains('reveal-btn'))
 }
 }
 
-revealBtn.addEventListener('click', revealContent);
+revealBtn.addEventListener('click', revealContent); */
+
+
+
+// Event Delegation
+
+/* document.querySelector('.football').addEventListener('click', function(e) {
+    console.log('football is clicked');
+
+    const target = e.target;
+
+    if(target.matches('li')) {
+        target.style.backgroundColor = 'lightgrey'
+    }
+}) */
+
+document.querySelector('.sports').addEventListener('click', function(e) {
+    console.log(e.target.getAttribute('class') + ' is clicked');
+    const target = e.target;
+    if(target.matches('li')) {
+        target.style.backgroundColor = 'lightgrey';
+    }
+})
+
+const sports = document.querySelector('.sports');
+const newSport = document.createElement('li');
+
+newSport.innerText = 'rugby';
+newSport.setAttribute('class', 'rugby');
+
+sports.appendChild(newSport);
