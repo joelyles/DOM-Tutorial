@@ -11,7 +11,7 @@ body {
     font-family: 'Roboto Slab', serif;
     position: relative;
     height: 100vh;
-    background: url(images/joshua-anderson.jpg) no-repeat center/ cover;
+    background: url(/images/joshua-anderson.jpg) no-repeat center/ cover;
 }
 
 #open-btn {

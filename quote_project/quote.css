@@ -14,7 +14,7 @@ body {
     height: 100vh;
     text-align: center;
     /* Photo by <a href="https://unsplash.com/@itfeelslikefilm?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">🇸🇮 Janko Ferlič</a>on <a href="https://unsplash.com/photos/photo-of-library-with-turned-on-lights-sfL_QOnmy00?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
-    background: url(images/janko-ferlic.jpg) no-repeat center center/ cover;
+    background: url(/images/janko-ferlic.jpg) no-repeat center center/ cover;
 }
 
 .container {
