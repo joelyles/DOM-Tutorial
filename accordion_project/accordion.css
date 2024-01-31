@@ -35,12 +35,15 @@ body {
     border-bottom:  1px solid #000;
 
     position: relative;
+    transition: .5s;
 }
 
 .accordion .content-container .question::after {
     content: "+";
     position: absolute;
     right: -5px;
+    transition: .5s;
+    rotate: -90deg;
 }
 
 .accordion .content-container .answer {
@@ -51,5 +54,22 @@ body {
 
     height: 0px;
     overflow: hidden;
+    transition: .5s;
+}
+
+/* JS styling link */
+
+.accordion .content-container.active .answer {
+    height: 150px;
+}
+.accordion .content-container.active .question {
+    font-size: 18px;
+    transition: .5s;
+}
+
+.accordion .content-container.active .question::after {
+    content: '+';
+    font-size: 25px;
+    rotate: 45deg;
     transition: .5s;
 }
