@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    height: 100vh;
+    background: url(/images/nathan-dumlao.jpg) no-repeat center/ cover;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#add-task-container {
+    width: 350px;
+    padding: 20px 10px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+    margin-bottom: 20px;
+
+    display: flex;
+}
+
+input {
+    flex: 5;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+#add-task {
+    flex: 1;
+    transition: .3s;
+
+    font-size: 1.2rem;
+    padding: 5px;
+
+    background-color: whitesmoke;
+    color: green;
+
+    border: green solid 2px;
+    border-radius: 10px;
+}
+
+#add-task:hover {
+    background-color: green;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+/* styling for task list additions*/
+
+.task {
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+
+    padding: 5px;
+    margin-bottom: 5px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.task li {
+    list-style: none;
+    flex: 4;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.task button {
+    flex: 1;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.task .checkTask {
+    color: orange;
+    margin-right: 5px;
+    border: 2px solid orange;
+    font-size: 1.5rem;
+}
+
+.task .checkTask:hover {
+    background-color: orange;
+    color: whitesmoke;
+}
+
+.task .deleteTask {
+    color: red;
+    border: 2px solid red;
+    font-size: 1.3rem;
+}
+
+.task .deleteTask:hover {
+    background-color: red;
+    color: whitesmoke;
+}
